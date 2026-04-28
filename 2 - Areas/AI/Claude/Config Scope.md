@@ -1,0 +1,35 @@
+- System managed (deployed by IT)
+   - all users on the machine
+   - managed-settings.json
+   - Can't be overridden
+- Command line arguments
+- Local
+   - Overrides project and user settings
+   - `.claude/*.local.*` - gitignored
+      - `.claude/settings.local.json`
+	 - Plugins
+	 - Skills
+   - `~/.claude.json` - (per-project)
+      - Per project MCP, and disable/enable toggle
+   - `CLAUDE.local.md`
+   - No agents can be defined on the Local scope
+- Project
+   - `.claude/`
+      - `.claude/settings.json`
+	 - Plugins
+      - `.claude/agents/`
+      - `.claude/skills/`
+   - `.mcp.json` - MCPs
+   - `CLAUDE.md` or `./claude/CLAUDE.md`
+      - 100-300 lines
+- User
+   - `~/.claude`
+      - `~/.claude/settings.json`
+	 - Plugins
+      - `~/.claude/agents/`
+      - `~/.claude/skills/`
+   - `~/.claude.json` - User's MCPs
+   - `~/.claude/CLAUDE.md`
+   - `~/.claude/projects/<project>/memory/`
+      - Auto memory loads only the first 200 lines of its main file.
+      - You need to enable it — `/memory`
