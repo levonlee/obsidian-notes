@@ -1,3 +1,6 @@
 {
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "code-block-font-size"
+  ]
 }
