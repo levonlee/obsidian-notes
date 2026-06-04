@@ -20,6 +20,7 @@
       - `.claude/agents/`
       - `.claude/skills/`
    - `.mcp.json` - MCPs
+	   - This could be in git
    - `CLAUDE.md` or `./claude/CLAUDE.md`
       - 100-300 lines
 - User
@@ -28,7 +29,9 @@
 	 - Plugins
       - `~/.claude/agents/`
       - `~/.claude/skills/`
-   - `~/.claude.json` - User's MCPs
+   - `~/.claude.json` - User's MCPs.
+	   - Top-level `mcpServers`: user (all projects)
+	   - Per-project level's `mcpServers`
    - `~/.claude/CLAUDE.md`
    - `~/.claude/projects/<project>/memory/`
       - Auto memory loads only the first 200 lines of its main file.

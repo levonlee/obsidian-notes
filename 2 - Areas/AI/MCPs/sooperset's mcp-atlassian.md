@@ -1,0 +1,1 @@
+This one can read images: https://github.com/sooperset/mcp-atlassian
