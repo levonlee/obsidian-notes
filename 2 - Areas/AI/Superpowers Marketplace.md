@@ -1,0 +1,3 @@
+- https://github.com/obra/Superpowers
+- Install the plugin `superpowers`
+- Mark this marketplace to be automatic update: `/plugins` > `Marketplaces` > `superpowers-marketplace`

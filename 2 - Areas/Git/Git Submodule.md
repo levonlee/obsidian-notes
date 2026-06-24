@@ -19,7 +19,6 @@ git submodule status
 
 No more prefix meaning the submodule is up to date. If later on there's a `+` prefix, it means you have to do this after `git pull`: `git submodule update`
 
-`cat .gitmodules`
 ## Submodule with branch specified
 `cat .gitmodules`
 ```
