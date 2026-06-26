@@ -31,8 +31,22 @@ No more prefix meaning the submodule is up to date. If later on there's a `+` pr
         branch = main
 ```
 
-If playwright repo has a new commit and you want to update the current repo to point to the HEAD:
+If the playwright repo (from .gitmodules we know it is pointing to the tip of branch `main`) has a new commit in `main` and you want to update the current repo to point to the HEAD:
 ```sh
 git submodule update --remote e2e
 git add e2e && git commit
+```
+
+For `localdev` submodule that doesn't have the branch specified:
+```sh
+cd devdocker
+git checkout master
+git pull
+git status
+# Check the commit hash
+git log -1
+cd ..
+git add devdocker
+# Check the commit hash again
+git submodule status devdocker
 ```
