@@ -13,6 +13,7 @@ while true; do caffeinate -i claude remote-control --name "myrepo (home)"; sleep
 # ctrl-c twice to stop this
 ```
 
-
+The server mode runs sessions that are started elsewhere in local machine with `CLAUDE_CODE_ENTRYPOINT=sdk-cli` [Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview). Sessions started in local CLI is called interactive CLI. There're some limitations for `sdk-cli` sessions:
+- Artifact skill is not loaded
 
 
