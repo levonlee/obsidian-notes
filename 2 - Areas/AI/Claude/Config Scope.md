@@ -36,3 +36,6 @@
    - `~/.claude/projects/<project>/memory/`
       - Auto memory loads only the first 200 lines of its main file.
       - You need to enable it — `/memory`
+
+## CLAUDE.md
+You cannot use `@-import` syntax.
