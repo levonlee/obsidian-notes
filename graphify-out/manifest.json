@@ -1,0 +1,236 @@
+{
+  "0 - Inbox/Chrome has an AI model.md": {
+    "mtime": 1788199524.959548,
+    "seen": 1790129182.494699,
+    "ast_hash": "a341cea619827ce103e171220e529585",
+    "semantic_hash": "a341cea619827ce103e171220e529585"
+  },
+  "0 - Inbox/Claude MCP Announcement.md": {
+    "mtime": 1788199524.959645,
+    "seen": 1790129182.494702,
+    "ast_hash": "79d7c3ec799d24f960587a314c925534",
+    "semantic_hash": "79d7c3ec799d24f960587a314c925534"
+  },
+  "0 - Inbox/Weave stats.md": {
+    "mtime": 1788199524.9597466,
+    "seen": 1790129182.494703,
+    "ast_hash": "28b6140a56b36e589640c35d234193c9",
+    "semantic_hash": "28b6140a56b36e589640c35d234193c9"
+  },
+  "2 - Areas/AI/Claude/Agent View.md": {
+    "mtime": 1788199524.959969,
+    "seen": 1790129182.4947042,
+    "ast_hash": "b6474b5425f6e08fcff03ebc79411e2d",
+    "semantic_hash": "b6474b5425f6e08fcff03ebc79411e2d"
+  },
+  "2 - Areas/AI/Claude/Config Scope.md": {
+    "mtime": 1788450712.0321193,
+    "seen": 1790129182.4947042,
+    "ast_hash": "6ce1925e8a56c4a41fd5ebe981dd9d8c",
+    "semantic_hash": "6ce1925e8a56c4a41fd5ebe981dd9d8c"
+  },
+  "2 - Areas/AI/Claude/Remote Control.md": {
+    "mtime": 1788450712.0322406,
+    "seen": 1790129182.494705,
+    "ast_hash": "4db0103fcc46fdc0e305b76de6fd05d6",
+    "semantic_hash": "4db0103fcc46fdc0e305b76de6fd05d6"
+  },
+  "2 - Areas/AI/Claude/Routine.md": {
+    "mtime": 1788199524.9601872,
+    "seen": 1790129182.494705,
+    "ast_hash": "a6e4559a8cd203b3fd4217782b2e73fd",
+    "semantic_hash": "a6e4559a8cd203b3fd4217782b2e73fd"
+  },
+  "2 - Areas/AI/CodeRabbit/Commands on GitLab.md": {
+    "mtime": 1788199524.9603505,
+    "seen": 1790129182.494706,
+    "ast_hash": "55f68ce6553353534cf79f16cc0517a7",
+    "semantic_hash": "55f68ce6553353534cf79f16cc0517a7"
+  },
+  "2 - Areas/AI/Graphify.md": {
+    "mtime": 1788199524.9604688,
+    "seen": 1790129182.4947069,
+    "ast_hash": "4aec7b9f700b5c4f2b3603eeb77b3661",
+    "semantic_hash": "4aec7b9f700b5c4f2b3603eeb77b3661"
+  },
+  "2 - Areas/AI/MCPs/sooperset's mcp-atlassian.md": {
+    "mtime": 1788199524.9606123,
+    "seen": 1790129182.4947069,
+    "ast_hash": "5a3f9642ca1800f3bafebf356ae88673",
+    "semantic_hash": "5a3f9642ca1800f3bafebf356ae88673"
+  },
+  "2 - Areas/AI/OpenAI/Codex Config Scope.md": {
+    "mtime": 1788450712.0323904,
+    "seen": 1790129182.494708,
+    "ast_hash": "0afe1ece6f9534571590251ba45f3f33",
+    "semantic_hash": "0afe1ece6f9534571590251ba45f3f33"
+  },
+  "2 - Areas/AI/Superpowers Marketplace.md": {
+    "mtime": 1788199524.9608834,
+    "seen": 1790129182.494708,
+    "ast_hash": "aa6ede36bbc53d15efd9a8fedd265a7b",
+    "semantic_hash": "aa6ede36bbc53d15efd9a8fedd265a7b"
+  },
+  "2 - Areas/Database/Clickhouse/ClickHouse Basic.md": {
+    "mtime": 1788199524.9611032,
+    "seen": 1790129182.494709,
+    "ast_hash": "bd0a875a2a441923de6953d267ce5196",
+    "semantic_hash": "bd0a875a2a441923de6953d267ce5196"
+  },
+  "2 - Areas/Database/MySQL/Upgrade from 8.0 to 8.4.md": {
+    "mtime": 1788199524.9612596,
+    "seen": 1790129182.494709,
+    "ast_hash": "59de05bb4eb9fa342da5f3d740ca259b",
+    "semantic_hash": "59de05bb4eb9fa342da5f3d740ca259b"
+  },
+  "2 - Areas/DotNet/Entity Framework Core (EF Core).md": {
+    "mtime": 1788199524.961428,
+    "seen": 1790129182.49471,
+    "ast_hash": "3bc72d2457d59092c73c3ed1fc997869",
+    "semantic_hash": "3bc72d2457d59092c73c3ed1fc997869"
+  },
+  "2 - Areas/DotNet/Install.md": {
+    "mtime": 1788450712.032495,
+    "seen": 1790129182.494711,
+    "ast_hash": "187a5de0769cb8c761ee11051e4a4ffc",
+    "semantic_hash": "187a5de0769cb8c761ee11051e4a4ffc"
+  },
+  "2 - Areas/DotNet/Rider.md": {
+    "mtime": 1775708463.6327167,
+    "seen": 1790129182.494711,
+    "ast_hash": "35398ac939cdec689908a43584c2d051",
+    "semantic_hash": "35398ac939cdec689908a43584c2d051"
+  },
+  "2 - Areas/Ghostty/Ghostty SSH.md": {
+    "mtime": 1788199524.9617274,
+    "seen": 1790129182.494712,
+    "ast_hash": "5c5657177731ac007b545ae8eb8c657c",
+    "semantic_hash": "5c5657177731ac007b545ae8eb8c657c"
+  },
+  "2 - Areas/Ghostty/Maximize a Split Pane.md": {
+    "mtime": 1788199524.9618292,
+    "seen": 1790129182.494712,
+    "ast_hash": "4f534fdbe42561893cff7ae4f94c32fc",
+    "semantic_hash": "4f534fdbe42561893cff7ae4f94c32fc"
+  },
+  "2 - Areas/Git/Add an ignored or excluded file to staged.md": {
+    "mtime": 1788199524.9619656,
+    "seen": 1790129182.494713,
+    "ast_hash": "06d6655bd1d3d654fbf9fa54204410e1",
+    "semantic_hash": "06d6655bd1d3d654fbf9fa54204410e1"
+  },
+  "2 - Areas/Git/Branch Checkout Without Switching.md": {
+    "mtime": 1788199524.9620624,
+    "seen": 1790129182.494713,
+    "ast_hash": "42405e31aa89db14c577924f9b0c7d25",
+    "semantic_hash": "42405e31aa89db14c577924f9b0c7d25"
+  },
+  "2 - Areas/Git/Git Submodule.md": {
+    "mtime": 1788199524.9621646,
+    "seen": 1790129182.494714,
+    "ast_hash": "19dd1a54f2e748228384f98bc41e3889",
+    "semantic_hash": "19dd1a54f2e748228384f98bc41e3889"
+  },
+  "2 - Areas/Git/Git reset hard with changing branch.md": {
+    "mtime": 1788450712.032616,
+    "seen": 1790129182.494715,
+    "ast_hash": "bcf2ff19cf688f3f6d28c363e0cb5bfc",
+    "semantic_hash": "bcf2ff19cf688f3f6d28c363e0cb5bfc"
+  },
+  "2 - Areas/GitLab/GitLab CI CD Local.md": {
+    "mtime": 1788199524.962305,
+    "seen": 1790129182.494715,
+    "ast_hash": "9ade5cc7a58c03cd0d1887d269f2011d",
+    "semantic_hash": "9ade5cc7a58c03cd0d1887d269f2011d"
+  },
+  "2 - Areas/Nginx/Check values of certain configs.md": {
+    "mtime": 1788199524.9624436,
+    "seen": 1790129182.494716,
+    "ast_hash": "bb1b6f38f164d81266431b85ad4b4ab7",
+    "semantic_hash": "bb1b6f38f164d81266431b85ad4b4ab7"
+  },
+  "2 - Areas/Nginx/HTTP Response Codes - 500 vs 200.md": {
+    "mtime": 1788199524.9625418,
+    "seen": 1790129182.494716,
+    "ast_hash": "cfab3abca4179ec88b6cfb3be4113c32",
+    "semantic_hash": "cfab3abca4179ec88b6cfb3be4113c32"
+  },
+  "2 - Areas/Nginx/PHP-FPM.md": {
+    "mtime": 1788199524.9626462,
+    "seen": 1790129182.494717,
+    "ast_hash": "c4527453855732f0328a93eb56fa518e",
+    "semantic_hash": "c4527453855732f0328a93eb56fa518e"
+  },
+  "2 - Areas/Obsidian/Hotkeys.md": {
+    "mtime": 1788199524.9627824,
+    "seen": 1790129182.4947178,
+    "ast_hash": "83df89148745b9cb4a9884378fb8134a",
+    "semantic_hash": "83df89148745b9cb4a9884378fb8134a"
+  },
+  "2 - Areas/Python/UV.md": {
+    "mtime": 1788199524.9629211,
+    "seen": 1790129182.4947178,
+    "ast_hash": "189dd2989a8f7cb421b38bc36b419cb9",
+    "semantic_hash": "189dd2989a8f7cb421b38bc36b419cb9"
+  },
+  "2 - Areas/SSL/CA Certificates.md": {
+    "mtime": 1788199524.9630566,
+    "seen": 1790129182.494719,
+    "ast_hash": "86f2ec0dab839950dbf405b80737b39e",
+    "semantic_hash": "86f2ec0dab839950dbf405b80737b39e"
+  },
+  "2 - Areas/SSL/Certificate Chain - Root vs Intermediate.md": {
+    "mtime": 1788199524.96315,
+    "seen": 1790129182.494719,
+    "ast_hash": "02564b184ca724ee2726eacf6b03e594",
+    "semantic_hash": "02564b184ca724ee2726eacf6b03e594"
+  },
+  "2 - Areas/Tmux/Copy mode.md": {
+    "mtime": 1788199524.9632864,
+    "seen": 1790129182.49472,
+    "ast_hash": "a9a8d7fd485d319a472694fb15da7fba",
+    "semantic_hash": "a9a8d7fd485d319a472694fb15da7fba"
+  },
+  "2 - Areas/Tmux/Tmux Basics.md": {
+    "mtime": 1788199524.9633815,
+    "seen": 1790129182.49472,
+    "ast_hash": "9c539677208a505ca5359a2986bdee26",
+    "semantic_hash": "9c539677208a505ca5359a2986bdee26"
+  },
+  "2 - Areas/Ubuntu/Network.md": {
+    "mtime": 1788199524.963519,
+    "seen": 1790129182.494721,
+    "ast_hash": "9e5744a9a38a37e313ac70ad625bb95d",
+    "semantic_hash": "9e5744a9a38a37e313ac70ad625bb95d"
+  },
+  "2 - Areas/Ubuntu/Package on hold.md": {
+    "mtime": 1788199524.9636102,
+    "seen": 1790129182.494721,
+    "ast_hash": "8278fd6ad1462111004c67d11150804f",
+    "semantic_hash": "8278fd6ad1462111004c67d11150804f"
+  },
+  "2 - Areas/Ubuntu/Ports.md": {
+    "mtime": 1788199524.9636981,
+    "seen": 1790129182.494724,
+    "ast_hash": "35db77f8cfb0514b7b6a030493a29c02",
+    "semantic_hash": "35db77f8cfb0514b7b6a030493a29c02"
+  },
+  "2 - Areas/Ubuntu/Timezone.md": {
+    "mtime": 1788199524.9637861,
+    "seen": 1790129182.494724,
+    "ast_hash": "cf6444ba2baa3fe543c84efe9e834539",
+    "semantic_hash": "cf6444ba2baa3fe543c84efe9e834539"
+  },
+  "2 - Areas/macOS/Keep computer active.md": {
+    "mtime": 1788199524.9639165,
+    "seen": 1790129182.4947252,
+    "ast_hash": "98e88dd31000e15714d9b112596a9f73",
+    "semantic_hash": "98e88dd31000e15714d9b112596a9f73"
+  },
+  "2 - Areas/macOS/Screen Share.md": {
+    "mtime": 1788450712.0327172,
+    "seen": 1790129182.494726,
+    "ast_hash": "49387d205392f3a3069bb174e76de270",
+    "semantic_hash": "49387d205392f3a3069bb174e76de270"
+  }
+}
