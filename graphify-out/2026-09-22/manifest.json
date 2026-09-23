@@ -232,35 +232,5 @@
     "seen": 1790129182.494726,
     "ast_hash": "49387d205392f3a3069bb174e76de270",
     "semantic_hash": "49387d205392f3a3069bb174e76de270"
-  },
-  ".claude/settings.json": {
-    "mtime": 1790129225.9869812,
-    "seen": 1790130950.2907908,
-    "ast_hash": "b02d805b2f05bf41c24428ea072b9321",
-    "semantic_hash": ""
-  },
-  ".codex/hooks.json": {
-    "mtime": 1790129276.2056313,
-    "seen": 1790130950.290796,
-    "ast_hash": "40de9751844ff3f96a2da0d3090e22ed",
-    "semantic_hash": ""
-  },
-  "2 - Areas/macOS/Transfer photos from iPhone to MacBook.md": {
-    "mtime": 1790130472.137328,
-    "seen": 1790130950.290829,
-    "ast_hash": "7ce7c9f696ac1995c59d744cefb539d8",
-    "semantic_hash": ""
-  },
-  "AGENTS.md": {
-    "mtime": 1790129276.2053716,
-    "seen": 1790130950.290829,
-    "ast_hash": "6a47d64fcc136324ca395065a707ef76",
-    "semantic_hash": ""
-  },
-  "CLAUDE.md": {
-    "mtime": 1790129225.986686,
-    "seen": 1790130950.290831,
-    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
-    "semantic_hash": ""
   }
 }
