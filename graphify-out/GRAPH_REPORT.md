@@ -1,16 +1,17 @@
-# Graph Report - obsidian-notes  (2026-09-22)
+# Graph Report - obsidian-notes  (2026-09-24)
 
 ## Corpus Check
-- 44 files · ~3,886 words
+- 44 files · ~3,890 words
 - Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 4 file(s) not represented in the graph (top: (none) 4)
 
 ## Summary
-- 129 nodes · 144 edges · 26 communities (17 shown, 9 thin omitted)
-- Extraction: 81% EXTRACTED · 19% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.79)
+- 132 nodes · 146 edges · 27 communities (17 shown, 10 thin omitted)
+- Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `85f77b27`
+- Built from commit: `8252d627`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,6 +42,7 @@
 - apt-mark showhold
 - Obsidian Hotkeys
 - Transfer photos from iPhone to MacBook.md
+- AGENTS.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Claude Code configuration scopes (Managed > CLI > Local > Project > User)` - 8 edges
@@ -63,21 +65,21 @@
   2 - Areas/AI/Claude/Routine.md → 2 - Areas/AI/Claude/Agent View.md
 - `CodeRabbit on GitLab` --conceptually_related_to--> `Code review dimensions (Purpose, Risk, Correctness & Logic, Readability, Architecture & Design)`  [INFERRED]
   2 - Areas/AI/CodeRabbit/Commands on GitLab.md → 0 - Inbox/Weave stats.md
-- `graphify claude install (PreToolUse hooks + CLAUDE.md section)` --references--> `CLAUDE.md`  [INFERRED]
+- `graphify claude install (PreToolUse hooks + CLAUDE.md section)` --references--> `.claude/settings.json`  [INFERRED]
   2 - Areas/AI/Graphify.md → 2 - Areas/AI/Claude/Config Scope.md
 
 ## Hyperedges (group relationships)
 - **Ways to run Claude Code sessions (background, remote, routines)** — 2___areas_ai_claude_agent_view_background_sessions, 2___areas_ai_claude_remote_control_remote_control, 2___areas_ai_claude_remote_control_server_mode, 2___areas_ai_claude_routine_claude_routines [INFERRED 0.75]
 - **Updating branches without checkout** — 2___areas_git_branch_checkout_without_switching_git_fetch_refspec, 2___areas_git_git_reset_hard_with_changing_branch_git_push_force_with_lease_refspec, 2___areas_git_git_reset_hard_with_changing_branch_git_branch_force, 2___areas_git_branch_checkout_without_switching_git_branch_track [INFERRED 0.75]
-- **Agent instruction/config files across Claude, Codex and Graphify** — 2___areas_ai_claude_config_scope_claude_md, 2___areas_ai_openai_codex_config_scope_agents_md, 2___areas_ai_claude_config_scope_settings_json, 2___areas_ai_openai_codex_config_scope_codex_config_toml, 2___areas_ai_graphify_graphify_claude_install, 2___areas_ai_graphify_graphify_codex_install [INFERRED 0.85]
+- **Agent instruction/config files across Claude, Codex and Graphify** — claude, 2___areas_ai_openai_codex_config_scope_agents_md, 2___areas_ai_claude_config_scope_settings_json, 2___areas_ai_openai_codex_config_scope_codex_config_toml, 2___areas_ai_graphify_graphify_claude_install, 2___areas_ai_graphify_graphify_codex_install [INFERRED 0.85]
 - **Nginx/PHP-FPM timeout layers causing truncated responses** — 2___areas_nginx_http_response_codes___500_vs_200_fastcgi_read_timeout, 2___areas_nginx_php_fpm_request_terminate_timeout, 2___areas_nginx_php_fpm_max_execution_time, 2___areas_nginx_http_response_codes___500_vs_200_truncated_200_response [INFERRED 0.85]
 - **SSL certificate chain of trust** — 2___areas_ssl_certificate_chain___root_vs_intermediate_chain_of_trust, 2___areas_ssl_certificate_chain___root_vs_intermediate_root_certificate, 2___areas_ssl_certificate_chain___root_vs_intermediate_intermediate_certificate, 2___areas_ssl_ca_certificates_ca_certificates_bundle, 2___areas_ssl_ca_certificates_update_ca_certificates [INFERRED 0.85]
 
-## Communities (26 total, 9 thin omitted)
+## Communities (27 total, 10 thin omitted)
 
 ### Community 0 - "Claude Code configuration scopes (Managed > CLI > Local > Project > User)"
-Cohesion: 0.24
-Nodes (15): Auto memory (~/.claude/projects/<project>/memory), Claude Code configuration scopes (Managed > CLI > Local > Project > User), ~/.claude.json (user and per-project MCPs), CLAUDE.md, managed-settings.json (system managed, cannot be overridden), .mcp.json project MCP config, Config Scope, .claude/settings.json (+7 more)
+Cohesion: 0.22
+Nodes (15): Auto memory (~/.claude/projects/<project>/memory), Claude Code configuration scopes (Managed > CLI > Local > Project > User), ~/.claude.json (user and per-project MCPs), managed-settings.json (system managed, cannot be overridden), .mcp.json project MCP config, Config Scope, .claude/settings.json, AGENTS.md / AGENTS.override.md (+7 more)
 
 ### Community 1 - "MySQL 8.0 to 8.4 upgrade"
 Cohesion: 0.27
@@ -144,9 +146,9 @@ Cohesion: 0.67
 Nodes (3): cron restart after timezone change, Timezone, timedatectl set-timezone
 
 ## Knowledge Gaps
-- **45 isolated node(s):** `Transfer photos from iPhone to MacBook`, `Superpowers Marketplace`, `Install`, `Claude MCP Announcement`, `sooperset's mcp-atlassian` (+40 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 46 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **47 isolated node(s):** `Transfer photos from iPhone to MacBook`, `graphify`, `graphify`, `Superpowers Marketplace`, `Install` (+42 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 49 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -157,5 +159,5 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `.claude/settings.json` (e.g. with `graphify claude install (PreToolUse hooks + CLAUDE.md section)` and `Superpowers plugin marketplace (obra/Superpowers)`) actually correct?**
   _`.claude/settings.json` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Transfer photos from iPhone to MacBook`, `Superpowers Marketplace`, `Install` to the rest of the system?**
-  _45 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Transfer photos from iPhone to MacBook`, `graphify`, `graphify` to the rest of the system?**
+  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
