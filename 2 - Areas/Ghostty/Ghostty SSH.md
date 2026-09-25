@@ -14,8 +14,8 @@ First, commented these 2 in local `~/.ssh/config`
 
 This is supposed to work but it doesn't for me: `ghostty +ssh-terminfo myserver`
 
-We do it manually. This will create
-`ls -ld /home/ubuntu/.terminfo/* /home/ubuntu/.terminfo/*/*`
+We do it manually. This will create the following files assuming the remote server you SSH into is of user `ubuntu`:
+`ls -ld ~/.terminfo/* ~/.terminfo/*/*`
 
 ```
 /home/ubuntu/.terminfo/g
@@ -24,7 +24,8 @@ We do it manually. This will create
 /home/ubuntu/.terminfo/x/xterm-ghostty
 ```
 
+`ssh myserver` as user `ubuntu` then:
 `infocmp -x | ssh myserver 'mkdir -p ~/.terminfo && tic -x -o ~/.terminfo /dev/stdin'`
 
-Then we uncomment RemoteCommand and RequestTTY, ssh in as root, and link the `.terminfo`
+Then we uncomment RemoteCommand and RequestTTY, SSH in as `root`, and link the `.terminfo`
 `mkdir -p /root/.terminfo && ln -snf /home/ubuntu/.terminfo/x /root/.terminfo/x`
