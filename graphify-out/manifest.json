@@ -252,15 +252,21 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1790131031.8427355,
-    "seen": 1790267561.814351,
-    "ast_hash": "6a47d64fcc136324ca395065a707ef76",
+    "mtime": 1791989661.6260307,
+    "seen": 1791989744.154407,
+    "ast_hash": "f36539ecc9af68f33ebd72770ce4a19e",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1790131031.8428345,
-    "seen": 1790267561.814351,
-    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "mtime": 1791989661.5758295,
+    "seen": 1791989744.154408,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": ""
+  },
+  "2 - Areas/macOS/Settings.md": {
+    "mtime": 1791989098.3828325,
+    "seen": 1791989744.154405,
+    "ast_hash": "c0b2c748bf1b938135730fcd49db92af",
     "semantic_hash": ""
   }
 }

@@ -1,17 +1,17 @@
-# Graph Report - obsidian-notes  (2026-09-24)
+# Graph Report - obsidian-notes  (2026-10-14)
 
 ## Corpus Check
-- 44 files · ~3,890 words
+- 45 files · ~4,169 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 4)
 
 ## Summary
-- 132 nodes · 146 edges · 27 communities (17 shown, 10 thin omitted)
+- 134 nodes · 147 edges · 28 communities (17 shown, 11 thin omitted)
 - Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8252d627`
+- Built from commit: `3e2fc5ab`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,6 +43,7 @@
 - Obsidian Hotkeys
 - Transfer photos from iPhone to MacBook.md
 - AGENTS.md
+- Settings.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Claude Code configuration scopes (Managed > CLI > Local > Project > User)` - 8 edges
@@ -75,15 +76,15 @@
 - **Nginx/PHP-FPM timeout layers causing truncated responses** — 2___areas_nginx_http_response_codes___500_vs_200_fastcgi_read_timeout, 2___areas_nginx_php_fpm_request_terminate_timeout, 2___areas_nginx_php_fpm_max_execution_time, 2___areas_nginx_http_response_codes___500_vs_200_truncated_200_response [INFERRED 0.85]
 - **SSL certificate chain of trust** — 2___areas_ssl_certificate_chain___root_vs_intermediate_chain_of_trust, 2___areas_ssl_certificate_chain___root_vs_intermediate_root_certificate, 2___areas_ssl_certificate_chain___root_vs_intermediate_intermediate_certificate, 2___areas_ssl_ca_certificates_ca_certificates_bundle, 2___areas_ssl_ca_certificates_update_ca_certificates [INFERRED 0.85]
 
-## Communities (27 total, 10 thin omitted)
+## Communities (28 total, 11 thin omitted)
 
 ### Community 0 - "Claude Code configuration scopes (Managed > CLI > Local > Project > User)"
 Cohesion: 0.22
-Nodes (15): Auto memory (~/.claude/projects/<project>/memory), Claude Code configuration scopes (Managed > CLI > Local > Project > User), ~/.claude.json (user and per-project MCPs), managed-settings.json (system managed, cannot be overridden), .mcp.json project MCP config, Config Scope, .claude/settings.json, AGENTS.md / AGENTS.override.md (+7 more)
+Nodes (14): Auto memory (~/.claude/projects/<project>/memory), ~/.claude.json (user and per-project MCPs), managed-settings.json (system managed, cannot be overridden), .mcp.json project MCP config, Config Scope, .claude/settings.json, AGENTS.md / AGENTS.override.md, .agents/skills search paths (+6 more)
 
 ### Community 1 - "MySQL 8.0 to 8.4 upgrade"
 Cohesion: 0.27
-Nodes (11): MySQL 8.0 to 8.4 upgrade, mysqlcheck --check-upgrade, Upgrade from 8.0 to 8.4, MySQL package hold check, Upgrade on production clone procedure, Ubuntu 20.04 to 22.04 upgrade prerequisite, EF Core migrations (dotnet ef), Idempotent migration SQL script (+3 more)
+Nodes (10): MySQL 8.0 to 8.4 upgrade, mysqlcheck --check-upgrade, Upgrade from 8.0 to 8.4, MySQL package hold check, Ubuntu 20.04 to 22.04 upgrade prerequisite, EF Core migrations (dotnet ef), Idempotent migration SQL script, Entity Framework Core (EF Core) (+2 more)
 
 ### Community 2 - "Claude background sessions (claude --bg)"
 Cohesion: 0.29
@@ -95,7 +96,7 @@ Nodes (10): nginx -T (dump full config), Nginx: Check Values of Certain Configs,
 
 ### Community 4 - "Weave stats"
 Cohesion: 0.36
-Nodes (9): Bugs per output unit, Jellyfish, Weave stats, Code review dimensions (Purpose, Risk, Correctness & Logic, Readability, Architecture & Design), Weave (developer productivity measurement), Weekly Revert Rate, CodeRabbit on GitLab, Commands on GitLab (+1 more)
+Nodes (7): Bugs per output unit, Jellyfish, Weave stats, Weave (developer productivity measurement), Weekly Revert Rate, CodeRabbit on GitLab, Commands on GitLab
 
 ### Community 5 - "Certificate Chain - Root vs Intermediate"
 Cohesion: 0.28
@@ -146,18 +147,18 @@ Cohesion: 0.67
 Nodes (3): cron restart after timezone change, Timezone, timedatectl set-timezone
 
 ## Knowledge Gaps
-- **47 isolated node(s):** `Transfer photos from iPhone to MacBook`, `graphify`, `graphify`, `Superpowers Marketplace`, `Install` (+42 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 49 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **44 isolated node(s):** `Superpowers Marketplace`, `Install`, `Claude MCP Announcement`, `sooperset's mcp-atlassian`, `xterm-ghostty terminfo on remote servers` (+39 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 51 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `.claude/settings.json` connect `Claude Code configuration scopes (Managed > CLI > Local > Project > User)` to `Graphify (graphifyy)`?**
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **Why does `.mcp.json project MCP config` connect `Claude Code configuration scopes (Managed > CLI > Local > Project > User)` to `MCP 2026-07-28 spec support in Claude`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `.claude/settings.json` (e.g. with `graphify claude install (PreToolUse hooks + CLAUDE.md section)` and `Superpowers plugin marketplace (obra/Superpowers)`) actually correct?**
   _`.claude/settings.json` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Transfer photos from iPhone to MacBook`, `graphify`, `graphify` to the rest of the system?**
-  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Superpowers Marketplace`, `Install`, `Claude MCP Announcement` to the rest of the system?**
+  _44 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `.mcp.json project MCP config` connect `Claude Code configuration scopes (Managed > CLI > Local > Project > User)` to `MCP 2026-07-28 spec support in Claude`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
